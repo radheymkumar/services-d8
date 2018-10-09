@@ -1,0 +1,7 @@
+custom_services_example.page:
+  path: '/services-page'
+  defaults:
+    _controller: '\Drupal\custom_services_example\Controller\CtrlPage::servicesPage'
+    _title: 'Custom Services Page'
+  requirements:
+    _permission: 'access content'
